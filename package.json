@@ -1,6 +1,22 @@
 {
-  "dependencies": {
-    "react-router-bootstrap": "^0.25.0",
-    "react-router-dom": "^5.2.0"
-  }
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "name": "mern-ecommerce",
+    "version": "1.0.0",
+    "description": "MERN E-Commerce app",
+    "main": "server.js",
+    "scripts": {
+        "start": "node backend/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RGrosso/Mern-ECommerce.git"
+    },
+    "author": "Ryan Grosso",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RGrosso/Mern-ECommerce/issues"
+    },
+    "homepage": "https://github.com/RGrosso/Mern-ECommerce#readme"
 }
