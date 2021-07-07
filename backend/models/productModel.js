@@ -1,9 +1,9 @@
-import mongoose from "monogoose";
+import mongoose from "mongoose";
 
 const reviewSchema = mongoose.Schema(
     {
         name: { type: String, required: true },
-        rating: { type: Nu + mber, required: true },
+        rating: { type: Number, required: true },
         comment: { type: String, required: true },
     },
     { timestamps: true }
@@ -63,6 +63,6 @@ const productSchema = mongoose.Schema(
     }
 );
 
-const Product = mongoose.mdoel("Product", productSchema);
+const Product = mongoose.model("Product", productSchema);
 
 export default Product;
